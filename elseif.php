@@ -19,7 +19,7 @@
 			// então imprima na tela: Terceira Idade
 			}elseif ($idade >=60) {
 				echo "Terceira Idade";
-			//E por fim, qualquer valor digitado menor que 18 retorna: Menor Idade
+			//Quando qualquer valor digitado for menor que 18, retorna: Menor Idade
 			} else {
 				echo "Menor idade";
 			}
