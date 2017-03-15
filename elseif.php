@@ -6,14 +6,14 @@
 <body>
 
 		<?php
-			// Verifica valor passado no array
+			// Verifica pela primeira vez o valor da chave passado no array "$_POST"
 			if (isset($_POST["idade"])) {
-				//Atribue uma variavel com o valor capturado da array
+				//Atribue uma variavel com o valor capturado no campo "idade"
 				$idade = $_POST["idade"];
 			}
 			// Nesse primeiro if eu digo que se a idade digitada for maior ou = a 18
 			// e igual a 59, então imprima na tela: Adulto
-			if ($idade >=18 and $idade ==59) {
+			if ($idade >=18 and $idade == 59) { // correto também -> if ($idade >=18 and $idade < 60)
 				echo "Adulto";
 			// No elseif eu digo que se a idade digitada for maior ou = a 60,
 			// então imprima na tela: Terceira Idade
