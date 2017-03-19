@@ -1,8 +1,8 @@
 # Atividades para Iniciante em PHP
 
-Exemplos usado nos códigos são baseados no manual do PHP.
+Exemplos usados nos códigos são baseados no manual do PHP.
 
-#Obs:
+# Obs:
 Comece do jeito certo:
 <p>
 -> <a href="php.net/manual/pt_BR/">Manual PHP</a><br/>
